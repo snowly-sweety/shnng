@@ -1,0 +1,26 @@
+
+.center { width: 100%; padding-bottom: 70px; overflow: hidden;}
+.center .content-wrap { position: relative; width: 100%; background: #000; border-top: 1px solid rgb(111,111,111);}
+.center .content-wrap div img { width: 100%;}
+.center .content-wrap .content { margin: 0 auto; width: 1136px;}
+.center .content-wrap .stop-logo { position: absolute; top: 45%; left: 45%; width: 5.1%;}
+.center .content-wrap .content-word { position: absolute; bottom: 0; padding: 17px 0 16px; width: 100%; text-align: center; font-size: 1.4em; font-family: arial; background: #000; opacity: 0.6;}
+.center .content-wrap .content-word a { color: rgb(180,180,180);}
+
+.center .content-list { margin: 16px auto; width: 1136px;}
+.center .content-list li { float: left; margin: 0 0.9%;}
+.center .content-list li a { position: relative; display: inline-block; width: 358px;}
+.center .content-list li a .img-first { width: 100%; }
+.center .content-list li a .img-second { position: absolute; top: 45%; left: 47%;}
+.center .content-list li a .img-third { position: absolute; top: 45%; left: 47%; display: none;}
+.center .content-list li p { padding: 7% 0; text-align: center; color: #909090; font-size: 16px; font-family: arial;}
+
+@media only screen and (max-width: 1140px) {
+	.center .content-wrap .content { width: 100%;}
+	.center .content-list { width: 100%;}
+	.center .content-list li { width: 31.4%;}
+	.center .content-list li a { width: 100%;}
+	.center .content-list li a img { width: 100%;}
+	.center .content-list li a .img-second { width: 6%;}
+	.center .content-list li a .img-third { width: 6%;}
+}

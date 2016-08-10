@@ -1,0 +1,77 @@
+
+.header-wrap { width: 100%; background: #000;}
+.header-wrap .header {margin: 0 auto; overflow: hidden; width: 1136px; height: 4.31em;}
+.header-wrap .header .nav-sign { float: right; display: none; margin: 25px 40px 0 0; width: 22px;}
+.header-wrap .header .nav-sign img { width: 100%;}
+.header-wrap .header .logo-wrap { float: left; padding: 17px 0; width: 13.2%;}
+.header-wrap .header .nav-wrap { float: right; height: 100%;}
+.header-wrap .header .nav-wrap .nav { height: 100%;}
+.header-wrap .header .nav-wrap .nav li { float: left; margin-left: 46px; line-height: 69px; height: 100%;}
+.header-wrap .header .nav-wrap .nav li a { padding: 6px 11px 7px; border-radius: 6px; color: rgb(168,168,168); opacity: 0.9;}
+.header-wrap .header .nav-wrap .nav li .nav-a { border: 1px solid rgb(123,123,123); color: rgb(255,255,255);}
+
+.center { width: 100%;}
+.center .content-wrap { margin: 0 auto; width: 1136px;}
+.center .content-wrap .content { width: 100%; height: 194px; border-bottom: 1px solid rgb(225,225,225)}
+.center .content-wrap .content li { float: left;}
+.center .content-wrap .content .content-img { position: relative; width: 718px;}
+.center .content-wrap .content .content-img .first-img { position: absolute; top: 0; left: 0; opacity: 1;}
+.center .content-wrap .content .content-img .content-line { position: absolute; top: 0; right: 0; width: 21px; height: 194px; background: rgb(225,225,225);}
+.center .content-wrap .content .content-word { width: 397px;}
+.center .content-wrap .content .content-word .first-word { margin: 43px 17px 26px; font-size: 30px; font-weight: bold; font-family: arial; color: #000;}
+.center .content-wrap .content .content-word .second-word { margin-left: 17px; line-height: 19px; font-size: 16px; font-weight: bold; font-family: "黑体"; color: #000;}
+.center .content-wrap .content .content-word .second-word a p { color: #000;}
+
+.center .content-wrap .second-content { width: 100%; height: 194px; border-bottom: 1px solid rgb(225,225,225);}
+.center .content-wrap .second-content .second-pic { position: relative; float: right; width: 718px;}
+.center .content-wrap .second-content .second-pic .first-img { position: absolute; top: 0; left: 0; opacity: 1;}
+.center .content-wrap .second-content .second-pic .content-line { position: absolute; top: 0; left: 0; z-index: 1; width: 21px; height: 194px; background: rgb(225,225,225);}
+.center .content-wrap .second-content .second-text { float: right;}
+.center .content-wrap .second-content .second-text p { text-align: right; width: 397px;}
+.center .content-wrap .second-content .second-text .first-word { margin: 43px 17px 26px 0; font-size: 30px; font-weight: bold; font-family: arial; color: #000;}
+.center .content-wrap .second-content .second-text .second-word { margin-right: 17px; line-height: 19px; font-size: 16px; font-weight: bold; font-family: "黑体"; color: #000;}
+
+.footer-wrap { width: 100%;}
+.footer-wrap .footer { margin: 82px auto 0; text-align: center; width: 205px;}
+.footer-wrap .footer a { display: inline-block;}
+.footer-wrap .footer .mail-wrap { width: 35px;}
+.footer-wrap .footer .mail-wrap img { width: 100%;}
+.footer-wrap .footer .friendlink { margin: 19px 25px;}
+.footer-wrap .footer .friendlink li { float: left; margin-left: 16px;}
+.footer-wrap .footer .friendlink li:nth-of-type(1) { margin-left: 0;}
+.footer-wrap .footer .copyright p { margin-top: 82px; font-size: 10px; font-family: arial;color: rgb(102,102,102);}
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 1145px) {
+	.header-wrap .header { width: 100%;}
+}
+@media only screen and (max-width: 916px) {
+	.header-wrap .header .nav-wrap { display: none;}
+	.header-wrap .header .nav-sign { display: block;}
+}
+@media only screen and (max-width: 640px) {
+	.header-wrap .header .nav-sign { width: 28px; margin-right: 60px;}
+	.header-wrap .header { height: 48px;}
+	.header-wrap .header .logo-wrap { padding: 0; margin: 8px 0 0 5%;}
+	.header-wrap .header .nav-sign { margin: 12px 10% 0 0;}
+	/*center*/
+									/*高度设置百分比后，加overflow可设置border*/
+	.center .content-wrap .content { height: 25%; overflow: hidden;}
+	.center .content-wrap { width: 95%; margin: 0 auto;}
+	.center .content-wrap .content .content-img { width: 100%;}
+	.center .content-wrap .content .content-img img { width: 100%;}
+	.center .content-wrap .content .content-img .content-line { display: none;}
+	.center .content-wrap .content .content-word { width: 100%;}
+	.center .content-wrap .content .content-word .first-word { margin: 43px 0 0; text-align: center; font-size: 20px;}
+	.center .content-wrap .content .content-word .second-word { margin: 26px 0; text-align: left; font-size: 12px;}
+	
+	.center .content-wrap .second-content { height: 25%; overflow: hidden;}
+	.center .content-wrap { width: 95%; margin: 0 auto;}
+	.center .content-wrap .second-content .second-pic { width: 100%;}
+	.center .content-wrap .second-content .second-pic img { width: 100%;}
+	.center .content-wrap .second-content .second-pic .content-line { display: none;}
+	.center .content-wrap .second-content .second-text p { width: 100%;}
+	.center .content-wrap .second-content .second-text .first-word { margin: 43px 0; text-align: center; font-size: 20px;}
+	.center .content-wrap .second-content .second-text .second-word { margin: 26px 0; text-align: left; font-size: 12px;}
+}

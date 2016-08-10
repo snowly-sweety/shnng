@@ -1,0 +1,11 @@
+																	/*center可以让背景图居中并跟随窗口改变大小*/
+.content { overflow: hidden; padding-bottom: 30px; width: 100%; background: url(../img/world_map.png) no-repeat center center rgb(227,227,227);}
+.content .content-word {margin: 100px 0 30px 10px; width: 487px; }
+.content .content-word p { line-height: 30px; font-size: 1em; font-family: arial;}
+.content .content-word .first-word { font-size: 1.8em; font-family: arial;}
+.content .content-word .second-word { margin: 20px 0 20px 0;}
+.content .logo-list li { margin:0 50px 10px 0; display: inline-block;}
+
+@media only screen and (max-width: 640px) {
+	.content .content-word { width: 100%;}
+}

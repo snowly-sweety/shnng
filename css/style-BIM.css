@@ -1,0 +1,38 @@
+
+.wrap { overflow: hidden; }
+
+.header-wrap { position: fixed; z-index: 5;}
+
+.center { overflow: hidden;}
+.center>div:nth-of-type(5) { margin: 0; }
+.first-center { width: 100%; background: rgb(229,229,229);}
+.center-one {  position: relative; margin: 0 auto; width: 1136px;  height: 585px; overflow:hidden;}
+.one-word { margin: 76px 0 45px; width: 40%;}
+.word-title { font-size: 1.4em; font-family: arial; color: rgb(97,97,97);}
+.title-num { margin-bottom: 24px; display: inline-block; text-align: center; width: 25px; height: 25px; border: 1px solid rgb(97,97,97); border-radius: 6px; font-size: 24px;}
+.center-one .one-word .one-con { line-height: 24px;}
+.center-one .one-smlpic { width: 30.45%;}
+.center-one .one-smlpic img { float: left; width: 33%;}
+.center-one .one-bigpic { position: absolute; bottom: -2px; right: 0; width: 350px;}
+.center-one .one-bigpic img { width: 100%;}
+
+.second-center { width: 100%;}
+.second-center .two-smlpic img { margin-right: 10px;}
+.second-center .two-bigpic { position: absolute; top: -1px; right: 45px; width: 350px;}
+.second-center .two-bigpic img { width: 100%;}
+
+.change-bigpic { width: 400px;}
+.change-bigpic img { width: 100%;}
+
+.third-center { width: 100%; background: rgb(229,229,229);}
+.three-smlpic img { width: 294px; margin-right: 10px;}
+.three-bigpic { position: absolute; bottom: -1px; left: 0;}
+.center .word-wrap { float: right; width: 780px;} 
+
+.fourth-center { width: 100%;}
+.on-word { position: absolute; top: 100px; left: 200px; z-index: 2;}
+.bg-pic { position: absolute; top: 0; left: 52px; z-index: 1;} 
+.four-smlpic img { display: block; margin-bottom: 10px; width: 215px;}
+.four-bigpic { position: absolute; bottom: -4px; right: 0;}
+
+.five-bigpic { position: absolute; top: 0px; right: 57px;}
